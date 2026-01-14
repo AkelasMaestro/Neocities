@@ -2,13 +2,29 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-h1 {
-  color: #ffc;
-  background-color: #009;
-}
 
 body {
+  font-family: arial, helvetica, sans-serif;
   font-size: 14px;
   color: white;
   background-color: navy;
+}
+
+h1 {
+  color: #ffc;
+  background-color: #009;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-style: italic;
+  text-transform: uppercase;
 }
