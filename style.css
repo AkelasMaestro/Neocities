@@ -18,6 +18,9 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
 }
 
 a {
