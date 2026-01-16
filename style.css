@@ -2,6 +2,34 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  border: solid;
+  color: white;
+  border-width: 1px 1px 0 1px;
+  margin: 0 5px 0 0;
+}
+
+nav li a {
+  padding: 0 10px;
+  color: white;
+}
+
+#content {
+  border: 1px solid;
+  color: white;
+}
+
+#selected {
+  padding-bottom: 1px;
+  background: navy;
+}
 
 body {
   font-family: arial, helvetica, sans-serif;
