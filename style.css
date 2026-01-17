@@ -2,6 +2,17 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+  background: navy;
+  margin: 20px;
+  padding: 0;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -10,34 +21,26 @@ nav ul {
 
 nav li {
   display: inline;
-  border: solid;
+  border: 1px solid;
   color: white;
-  border-width: 1px 1px 0 1px;
-  margin: 0 5px 0 0;
+  border-bottom-width: 0;
+  margin: 0 0.5em 0 0;
 }
 
 nav li a {
-  padding: 0 10px;
+  padding: 1em;
   color: white;
 }
 
 #content {
   border: 1px solid;
   color: white;
+  padding: 10px;
 }
 
 #selected {
-  padding-bottom: 1px;
+  padding-bottom: 2px;
   background: navy;
-}
-
-body {
-  font-family: arial, helvetica, sans-serif;
-  font-size: 14px;
-  color: white;
-  background-color: navy;
-  margin: 20px;
-  padding: 0;
 }
 
 p {
@@ -53,7 +56,6 @@ h1 {
   padding: 4px;
   font-style: italic;
   text-align: center;
-  letter-spacing: 0.5em;
   border-bottom-style: solid;
   border-bottom-width: 0.5em;
   border-bottom-color: #c00;
@@ -61,7 +63,6 @@ h1 {
 
 h2 {
   color: white;
-  background-color: #090;
   font-size: 1.5em;
   margin: 0;
   padding: 2px;
