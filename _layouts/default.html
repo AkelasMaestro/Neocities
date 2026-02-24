@@ -1,6 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <body>
+<html>  
+  <head>
+	  <title>AkelasMaestro</title>
+	  <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <h1>
+      Akelas
+      <img src="resources/neocities.png" 
+        width="25" 
+        height="25" 
+        alt=" Place holder for profile photo">
+      Maestro
+  </h1>
+
+  <nav>
+    <ul>
+
+      <li><a href={% link index.md %}>Home</a></li>
+      <li><a href={% link about.md %}>About</a></li>
+      <li><a href={% link blog.md %}>Blog</a></li>
+      <li><a href={% link projects.md %}>Projects</a></li>
+      <li><a href={% link links.md %}>Links</a></li>
+
+    </ul>
+  </nav>
+
+</header>
+
+  <section id="content">
     {{ content }}
-  </body>
+  </section>
+
 </html>
