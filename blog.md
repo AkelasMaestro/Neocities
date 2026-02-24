@@ -1,6 +1,6 @@
 ---
 title: Blog
-template: default
+layout: default
 ---
 
 This is where I keep a list all my one off articles. Book and movie reviews,

@@ -1,6 +1,6 @@
 ---
 title: projects
-template: default
+layout: default
 ---
 
 This is where I keep notes and updates on ongoing, future, or forgotten
