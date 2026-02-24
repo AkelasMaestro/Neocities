@@ -12,8 +12,7 @@ or want to know more, feel free to reach out.
 
 ## Latest Update
 
-2026-02-24. Building this site is taking longer than anticipated, but
-I am still enjoying it. I have transitioned to using the static site builder
-[jekyll](https://jekyllrb.com/). At first, I tried to just slap on a theme
-and run with it, but I wondered into just copying and pasting what I didn't
-understand. So now I'm going back and trying to make things a little neater.
+2026-02-24. Building this website is taking much longer than I had anticipated.
+But that's part of the fun, right? Anyway, I've switched to using [jekyll](jekyllrb.com)
+to build my site and now I have a basic structure! Next up: fixing the style
+and addin actual content.
