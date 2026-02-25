@@ -1,6 +1,7 @@
 ---
-title: My Yellow Jacket
 layout: default
+categories: blogs
+title: My Yellow Jacket
 author: Akelas Maestro
 ---
 

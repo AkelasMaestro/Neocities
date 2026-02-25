@@ -1,5 +1,6 @@
 ---
 layout: default
+category: projects
 title: Building My Website
 author: Akelas Maestro
 ---
@@ -30,4 +31,4 @@ I'm still using jekyll, but I found this [tutorial](https://jekyllrb.com/tutoria
 
 I did discover [Web Design in 4 minutes](jgthms.com/web-design-in-4-minutes) by Jeremy Thomas, which Tajacks credited in his LightSpeed repo. I'm hoping to start there to improve the look of my website. Thomas does a great job of making it look easy. BUT! In the first twenty seconds of those four minutes, Thomas points out the importance of **content** first. Then style. Admittedly, my website is rather gross without content. I would put up with bad design if it was at least good reading.
 
-With the importance of content in mind, I think I'm going to shift to adding and fleshing out some of the little essays I have running around in my mind and to-do list. If you can't find them, it's probably because I don't know how to link to them just yet.
+With the importance of content in mind, I think I'm going to shift to adding and fleshing out some of the little essays I have running around in my mind and to-do list. My focus on the technical side will shift towards just getting it to work.
