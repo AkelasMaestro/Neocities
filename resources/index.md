@@ -1,6 +1,6 @@
 ---
 title: Index
-layout: default
+layout: home
 ---
 ## Welcome
 
