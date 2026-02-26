@@ -1,6 +1,7 @@
 ---
 title: Links
 layout: default
+order: 5
 ---
 
 ## Neo Neighbors

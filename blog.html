@@ -1,0 +1,24 @@
+---
+layout: default
+title: blog page
+order: 3
+---
+
+<!-- Introduce the purpose of this page -->
+<p>
+This is where I keep a list all my one off articles. Book and movie reviews,
+thoughts and ponderings, op eds, that sort of thing. If you're interested in
+longer, ongoing projects, those will be found under the projects tab.
+</p>
+
+<!-- make a list of all the posts in the blog category -->
+<ul class="myposts">
+{% for post in site.categories.blogs %}
+  <!-- Put the title and then the date on one line -->
+  <li><a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
+  <!-- Add a the first paragraph as a description or hook --> 
+  {{ post.excerpt }} 
+  </li>
+{% endfor %}
+</ul>

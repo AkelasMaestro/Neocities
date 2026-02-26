@@ -3,10 +3,8 @@ layout: default
 categories: blogs
 title: My Yellow Jacket
 author: Akelas Maestro
+date: 2026-02-02
 ---
-
-## My Yellow Jacket
-
 I have an OSHA-compliant yellow reflective jacket. We have a love hate relationship.
 
 I take a bus and train to university, Monday through Friday, and really enjoy it. One of the benefits is a regular walk every day. In the winter months however, it is dark and cold. After several close calls with drivers not paying attention, I decided to get a bright-colored coat to solve both those issues.
@@ -28,4 +26,3 @@ I tried my black jacket last week for three days.  On the third day, a car took 
 I can't say with certainty that I am safer with the yellow jacket and there is certainly a heavy amount of confirmation bias going on in my analysis. Personal protective equipment is also meant to be the last line of defense. Safety starts with avoiding the problems to begin with which is why I am such a stickler for crosswalks (accoring to a county homicide investigator at Utah's 2024 transportation conference, over 70% of pedestrian-vehicle collisions are the fault of the pedestrian. Often, this is due to jay walking which itself is related to insufficient cross walks) But I **feel** safer. My mind is less anxious when I find myself lit up by headlights and vehicles seem to give me more space and slow down sooner than they usually do. That peace of mind while I walk in the dark is valuable.
 
 I would really like to see more street lighting and a cultural shift away from prioritizing cars over everyone else. The fact that I even felt the need to purchase and use industrial safety equipment just to walk my neighborhood feels wrong. This is why I am studying civil engineering. But those changes will take time and a supportive public. If the social impact really bothers me, maybe I'll get an in-office jacket I can wear around campus and the lab once I arrive. For now, I'm sticking with my yellow jacket.
-
