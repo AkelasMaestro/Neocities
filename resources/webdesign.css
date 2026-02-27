@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     max-width: 50em;
     line-height: 1.5;
-    padding: 4em 1em;
+    padding: 1em 1em;
     color: #566b78;
 }
 
@@ -13,7 +13,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    padding: 1vw 2em;
+    padding: 1em 1em;
     text-align: center;
   }
 
