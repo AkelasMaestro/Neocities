@@ -18,6 +18,8 @@ The blog tab will now show all posts in reverse chronological order. This why if
 
 The style sheet has been updated! Probably the biggest change. It now hurts less to look at! I walked through [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/), copied his instructions, and modified it to fit what I already have. My first style sheet was a mess that was left over from my first attempt at following HTMLDog's [tutorial](https://htmldog.com/guides/). I think the spacing is still off, especially for the lists of posts. I'll continue refining it.
 
+I have figured out to make my website mobile friendly! I just needed to add one line to the head section of my CSS file that sets the viewport and what not. I did not think it would be that easy. When I was looking around for options, AI and google were posing weird solutions with if statements and conditionals to detect the screen size and adjust the CSS from there. No. Too much. Thank you to [this site](motherfuckingwebsite.com). Your simplicity is what I strive for. Heads up, there is strong language behind that link.
+
 ### Update 2026-02-25
 
 I'm slowly getting the shape and flow of the website together. I've continued following the [jekyll tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/) I found yesterday. I have distinguished my articles as posts, categorized as either blogs or projects. I learned there's a difference between posts and pages. Pages are more about navigation than content, while posts are more about content. I think? It's good enough for now.
