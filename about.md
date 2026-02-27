@@ -4,8 +4,7 @@ layout: default
 order: 2
 permalink: /about/
 ---
-
-## Welcome
+## About
 
 Real quick: If you're coming from work or a similar professional space, this website is not for you. This website is for me to share my weird little opinions, pontifications, and side projects that most people in my day-to-day don't need to hear. If I wanted you to hear them, I would have put it on LinkedIn. If you found me here, you're trying too hard. I intentionally chose this obscure, semi-anonymous space for a reason. If you're not here to judge, but to vibe, come hang out!
 

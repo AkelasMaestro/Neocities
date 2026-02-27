@@ -3,18 +3,20 @@
   <!-- set title and get the style sheet -->
   <head>
     <title>{{ site.title }} | {{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/resources/style.css" | base_url}}">
+    <link rel="stylesheet" href="{{ "/resources/webdesign.css" | base_url}}">
   </head>
 
   <!-- Create website header with profile pic between firt and last name -->
-  <h1>
-      Akelas
-    <img src="{{ "/resources/neocities.png" | base_url }}" 
-        width="25" 
-        height="25" 
-        alt=" Place holder for profile photo">
-      Maestro
-  </h1>
+  <header>
+    <h1>
+       Akelas
+      <img src="{{ "/resources/neocities.png" | base_url }}" 
+          width="25" 
+          height="25" 
+          alt=" Place holder for profile photo">
+        Maestro
+    </h1>
+  </header>
 
   <!-- Generate the list of navigation links -->
   <nav>
@@ -26,17 +28,13 @@
   </nav>
 
   <!-- Insert content from pages and posts -->
-  <section id="content">
     {{ content }}
-  </section>
 
   <!-- At some point, we need to add a footer here -->
-  <footer>
     <p>
     Contact: contactAkelas (at) proton.me
     </p>
     <p>
     Copyright (c) 2026 Akelas Maestro. All Rights Reserved.
     </p>
-  </footer>
 </html>
