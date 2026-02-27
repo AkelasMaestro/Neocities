@@ -1,3 +1,10 @@
+---
+title: Minecraft Economy Idea
+categories: MCtranspo
+layout: default
+---
+
+
 I've been fascinated by the idea of simulated economies inside Minecraft servers.
 They usually fail, but I think I have a solution.
 
@@ -52,3 +59,7 @@ services. The simplest thing to do would be to just start using the system and n
 For services, where I as the admin use commands on behalf of the players, I could calculate the time it would take to manually remove or place a given number of blocks. Removing blocks should be easy to price; just multiply the time it takes to mine a bock by the quantity of blocks. Dirt and sand, rock, deepslate, and water could each be priced differently. Placing blocks would be harder, especially since I am creating materials out of nothing. I think I would try to figure out the amount of time it would take to collect and make the material and then multiply by the volume of blocks placed. All of this would need to be rough estimates.
 
 For projects, where players build for a reward, a similar pricing model per block would break down. Blocks are placed instantly, but moving around the structure, design, and troubleshooting all take time. Maybe that's where the bidding system comes into play. I outline the project demands and requirements, and players tell me how long it will take them. Providing the building material could also be part of the contract to keep with the intended purpose of saving time and making it fun.
+
+I don't know if I need to bother with giving myself a set amount of poisonous potatoes to start. Maybe some finance guy will message me saying I'm setting myself up for failure but basically printing money, but it has to start from somewhere. I think I'll set prices for services in a book, and once the players get a feel for the pricing of services, they can start bidding on projects. The first few projects I will just spawn in the requisite number of potatoes, but I suspect that there might be a point where services are earning enough money to hopefully pay for the out going projects. Time will tell.
+
+Stay tuned for updates! Who knows how long it will take me to actually implement this feature. We all lead busy lives and the server often takes a back seat.
