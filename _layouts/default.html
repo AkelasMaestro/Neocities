@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>  
+  <!-- set title and get the style sheet -->
   <head>
     <title>{{ site.title }} | {{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/resources/style.css" | base_url}}">
   </head>
 
-
+  <!-- Create website header with profile pic between firt and last name -->
   <h1>
       Akelas
     <img src="{{ "/resources/neocities.png" | base_url }}" 
@@ -15,22 +16,19 @@
       Maestro
   </h1>
 
+  <!-- Generate the list of navigation links -->
   <nav>
     <ul>
-
-      <li><a href={% link index.html %}>Home</a></li>
-      <li><a href={% link about.md %}>About</a></li>
-      <li><a href={% link blog.html %}>Blog</a></li>
-      <li><a href={% link projects.html %}>Projects</a></li>
-      <li><a href={% link links.md %}>Links</a></li>
-
+      {% for link in site.data.navigation %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 
-</header>
-
+  <!-- Insert content from pages and posts -->
   <section id="content">
     {{ content }}
   </section>
 
+  <!-- At some point, we need to add a footer here -->
 </html>
