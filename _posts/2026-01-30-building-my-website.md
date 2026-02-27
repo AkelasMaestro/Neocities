@@ -16,7 +16,7 @@ I've added a new project and a sub article: Transpo Minecraft Server and Minecra
 
 The blog tab will now show all posts in reverse chronological order. This why if I update multiple projects at once or post several articles together, they don't get lost.
 
-The website is still ugly as sin. I think that will be the next move.
+The style sheet has been updated! Probably the biggest change. It now hurts less to look at! I walked through [Web Design in 4 Minutes](https://jgthms.com/web-design-in-4-minutes/), copied his instructions, and modified it to fit what I already have. My first style sheet was a mess that was left over from my first attempt at following HTMLDog's [tutorial](https://htmldog.com/guides/). I think the spacing is still off, especially for the lists of posts. I'll continue refining it.
 
 ### Update 2026-02-25
 
