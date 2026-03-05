@@ -3,10 +3,10 @@ layout: post
 category: projects
 title: Building My Website
 author: Akelas Maestro
-date: 2026-02-27
+date: 2026-03-05
 ---
 
-A history of my process in making this website. More than a change log, but less than a tutorial. The newest update is at the top.
+A history of my process in making this website. More than a change log, but less than a tutorial.
 
 ## Update 2026-03-05
 
