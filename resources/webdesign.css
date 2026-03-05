@@ -79,4 +79,14 @@ a {
     color: #e81c4f;
 }
 
+footer {
+    text-align: center;
+    border-top: 2px solid #566b78;
+    /* padding-top: 20px; /* Space between line and content inside footer */
+    /* or */
+    margin-top: 30px; /* Space between the content above and the footer */
+}
 
+footer a {
+  color: #566b78;
+}
