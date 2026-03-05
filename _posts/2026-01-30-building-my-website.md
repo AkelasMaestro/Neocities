@@ -8,6 +8,12 @@ date: 2026-02-27
 
 A history of my process in making this website. More than a change log, but less than a tutorial. The newest update is at the top.
 
+## Update 2026-03-05
+
+I have upgraded to a custom domain! [akelascorner.com](akelascorner.com), let's go! This took a little bit of leg work to figure out. First, I had to upgrade my neocities account to Supporter, which is $5/month at the moment. Considering how much I really like working on this site and that I'm already paying for that [Minecraft server](/_posts/2026-02-26-Minecraft-transpo-server.md), $5 was not that big of a deal. Also, I like knowing that I get to give back to those who have brought me so much joy. I also had to buy a domain separately, which came to be $15/year. Again, not too bad.
+
+Finding the neocities tutorial on how to link my custom domain was a challenge, but once I found it, following it was pretty easy. To find the tutorial, first upgrade your account to Supporter. That part shouldn't be too hard to find. Next, go to your account settings; it's at the end of the menu that pops up when you click the hamburger button in the top right of the neocities website. Click the "manage site settings" link listed next to your website's name. More links show up, one of them will be "custom domain". That link is what brings up the tutorial. The example images they show are from the [namecheap.com](namecheap.com) website, which is where I bought my domain name as well. Apparently, I could also buy an email domain along with my website at namecheap, but I don't think that'll be necessary.
+
 ## Update 2026-02-27
 
 I feel like I'm getting the hang of how Jekyll works now, and I have a decent structure to the website that's basically what I wanted from the beginning. Finding jekyll has been huge! Way easier to tweak a single layout or upload a single post and not have to go through changing every single page.
