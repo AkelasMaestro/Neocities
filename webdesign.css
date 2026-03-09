@@ -1,10 +1,12 @@
 /* Define the color pallet for the style sheet */
 :root {
-  --primary-color: #e81c47;
-  --secondary-color: #263d36;
-  --accent-color: #333;
-  --neutral-color1: #566b78;
-  --neutral-color2: #fff;
+  /* default color palette */
+  --links-color: #faa916; /* dandelion yellow */
+  --header-background: #263d36; /* dark green */
+  --header-text: white;
+  --strong-color: #333; /* dark gray/blue */
+  --body-text: #566b78; /* lighter gray/blue */
+  --background-color: white;
 }
 
 body {
@@ -13,11 +15,12 @@ body {
     max-width: 50em;
     line-height: 1.5;
     padding: 1em 1em;
-    color: var(--neutral-color1);
+    color: var(--body-text);
+    background-color: var(--background-color);
 }
 
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--header-background);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +30,7 @@ header {
   }
 
 header h1 {
-    color: var(--neutral-color2);
+    color: var(--header-text);
     font-size: 2.5em;
     font-weight: 300;
   }
@@ -81,8 +84,8 @@ header a {
   }
 
 header a:hover {
-    background: var(--primary-color);
-    color: var(--neutral-color2);
+    background: var(--links-color);
+    color: var(--background-color);
   }
 
 h2 {
@@ -93,21 +96,21 @@ h2 {
 h1,
 h2
 strong {
-    color: var(--accent-color);
+    color: var(--strong-color);
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--links-color);
 }
 
 footer {
     text-align: center;
-    border-top: 2px solid var(--neutral-color1);
+    border-top: 2px solid var(--body-text);
     /* padding-top: 20px; /* Space between line and content inside footer */
     /* or */
     margin-top: 30px; /* Space between the content above and the footer */
 }
 
 footer a {
-  color: var(--neutral-color1);
+  color: var(--body-text);
 }

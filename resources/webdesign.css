@@ -1,11 +1,11 @@
 /* Define the color pallet for the style sheet */
 :root {
   /* default color palette */
-  --links-color: #faa916;
-  --header-background: #263d36;
+  --links-color: #faa916; /* dandelion yellow */
+  --header-background: #263d36; /* dark green */
   --header-text: white;
-  --strong-color: #333;
-  --body-text: #566b78;
+  --strong-color: #333; /* dark gray/blue */
+  --body-text: #566b78; /* lighter gray/blue */
   --background-color: white;
 }
 
