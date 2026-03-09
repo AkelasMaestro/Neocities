@@ -1,0 +1,31 @@
+Greens:
+#4F7967
+#33543F
+#A0C9B0
+
+Blues:
+#40628E
+#1C2333
+#577EAD
+#2B4369
+
+Whites:
+#B5C4CC
+#DDF1F5
+#C5D6D3
+
+Webdesign colors:
+body: #566b78 softer black
+header-background: #263d36 forest green
+header text: white
+h1, h2, strong: #333 harder black
+a: #e81c4f red
+
+:root {
+  --primary-color: #e81c47;
+  --secondary-color: #263d36;
+  --accent-color: #333;
+  --neutral-color1: #566b78;
+  --neutral-color2: #fff;
+}
+

@@ -1,14 +1,26 @@
+/* Define the color pallet for the style sheet */
+:root {
+  /* default color palette */
+  --links-color: #faa916;
+  --header-background: #263d36;
+  --header-text: white;
+  --strong-color: #333;
+  --body-text: #566b78;
+  --background-color: white;
+}
+
 body {
     font-family: "Helvetica", "Arial", sans-serif;
     margin: 0 auto;
     max-width: 50em;
     line-height: 1.5;
     padding: 1em 1em;
-    color: #566b78;
+    color: var(--body-text);
+    background-color: var(--background-color);
 }
 
 header {
-    background-color: #263d36;
+    background-color: var(--header-background);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,10 +30,22 @@ header {
   }
 
 header h1 {
-    color: white;
+    color: var(--header-text);
     font-size: 2.5em;
     font-weight: 300;
   }
+
+
+/* .profile-pic makes the pic in the header circular*/
+.profile-pic {
+  width: 50px; /* set the size of the container */
+  height: 50px;
+  border-radius: 50%; /* Make the image round */
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0% 50%;
+  vertical-align: middle; /* lower the image so it centers with text */
+}
 
 nav ul {
   display: flex;
@@ -60,8 +84,8 @@ header a {
   }
 
 header a:hover {
-    background: #381c47;
-    color: white;
+    background: var(--links-color);
+    color: var(--background-color);
   }
 
 h2 {
@@ -72,21 +96,21 @@ h2 {
 h1,
 h2
 strong {
-    color: #333;
+    color: var(--strong-color);
 }
 
 a {
-    color: #e81c4f;
+    color: var(--links-color);
 }
 
 footer {
     text-align: center;
-    border-top: 2px solid #566b78;
+    border-top: 2px solid var(--body-text);
     /* padding-top: 20px; /* Space between line and content inside footer */
     /* or */
     margin-top: 30px; /* Space between the content above and the footer */
 }
 
 footer a {
-  color: #566b78;
+  color: var(--body-text);
 }
