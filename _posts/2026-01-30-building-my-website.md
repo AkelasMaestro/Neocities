@@ -3,10 +3,16 @@ layout: post
 category: projects
 title: Building My Website
 author: Akelas Maestro
-date: 2026-03-05
+date: 2026-03-08
 ---
 
 A history of my process in making this website. More than a change log, but less than a tutorial.
+
+## Update 2026-03-08
+
+I finally uploaded a proper profile picture. Obviously, it's not the real me. It's a head shot of a model mech I built from the show "Patlabor". I'm writing up an article on the model and will release it eventually.
+
+I have also adjusted my style sheet so now it will be easier to switch up my color palettes. Eventually, I'll create a dark mode for the site with a little button.
 
 ## Update 2026-03-05
 
