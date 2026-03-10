@@ -20,7 +20,7 @@ body {
 }
 
 /* Set the default image size for all content */
-img {
+.post-content img {
     max-width: 50%;  /* Limit the image width to the container’s width */
     height: auto;     /* Adjust height automatically to maintain aspect ratio */
     display: block;    /* Remove any inline spacing issues */
