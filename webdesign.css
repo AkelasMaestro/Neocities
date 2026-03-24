@@ -7,6 +7,7 @@
   --strong-color: #333; /* dark gray/blue */
   --body-text: #566b78; /* lighter gray/blue */
   --background-color: white;
+  --background2: white;
 }
 
 body {
@@ -110,6 +111,52 @@ strong {
 a {
     color: var(--links-color);
 }
+
+/* formats for forms. Currently only used for the finance calculator */
+.form-section {
+  margin-bottom: 5px;
+  padding: 15px;
+  background-color: var(--background2);
+  border-radius: 5px;
+}
+.form-section h3 {
+  margin-top: 0;
+  color: var(--header-text);
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="number"], input[type="range"] {
+  padding: 8px;
+  border: 1px solid var(--body-text);
+  border-radius: 4px;
+  font-size: 14px;
+}
+input[type="number"] {
+  width: 200px;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: var(--links-color);
+}
+.slider-display {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.slider-display div {
+  flex: 1;
+}
+#results {
+  margin-top: 30px;
+}
+
+/* footer formats */
 
 footer {
     text-align: center;

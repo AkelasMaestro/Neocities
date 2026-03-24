@@ -1,0 +1,193 @@
+<form id="retirementForm">
+  <div class="form-section">
+    <h3>Tax Rates</h3>
+    <label for="incomeTaxRate">Income Tax Rate (%):</label>
+    <input type="number" id="incomeTaxRate" step="0.01" min="0" max="100" value="27">
+            
+    <label for="capitalGainsTaxRate">Capital Gains Tax Rate (%):</label>
+    <input type="number" id="capitalGainsTaxRate" step="0.01" min="0" max="100" value="0">
+            
+    <label for="charityRate">Charity Rate (%):</label>
+    <input type="number" id="charityRate" step="0.01" min="0" max="100" value="11">
+  </div>
+        
+  <div class="form-section">
+    <h3>Rates of Return</h3>
+    <label for="savingsReturnRate">Annual Return Rate While Saving (%):</label>
+    <input type="number" id="savingsReturnRate" step="0.01" min="0" max="100" value="7.2">
+            
+    <label for="retirementReturnRate">Annual Return Rate After Retirement (%):</label>
+    <input type="number" id="retirementReturnRate" step="0.01" min="0" max="100" value="4">
+
+    <label for="inflationRate">Inflation Rate (%):</label>
+    <input type="number" id="inflationRate" step="0.01" min="0" max="100" value="2.3">
+  </div>
+        
+  <div class="form-section">
+    <h3>Personal Information</h3>
+    <label for="currentAge">Current Age:</label>
+    <input type="number" id="currentAge" step="1" min="0" max="120">
+            
+    <label for="retirementAge">Desired Age of Retirement:</label>
+    <input type="number" id="retirementAge" step="1" min="0" max="120">
+  </div>
+        
+  <div class="form-section">
+    <h3>Income</h3>
+    <label for="monthlyTakeHome">Current Monthly Take-Home Pay:</label>
+    <input type="number" id="monthlyTakeHome" step="0.01" min="0">
+  </div>
+        
+  <div class="form-section">
+    <h3>Monthly Budget</h3>
+    <label>Adjust Monthly Savings vs Expenses:</label>
+    <input type="range" id="expensesSavingsSlider" min="0" max="100" value="50">
+    <div class="slider-display">
+      <div>Current Monthly Savings: $<span id="displayMonthlySavings">0.00</span></div>
+      <div>Savings Rate: <span id="displaySavingsRate">0.00</span>%</div>
+      <div>Current Monthly Expenses: $<span id="displayMonthlyExpenses">0.00</span></div>
+    </div>
+  </div>
+        
+  <div class="form-section">
+    <h3>Retirement Expenses</h3>
+    <label for="additionalExpenses">Additional Monthly Expenses After Retirement (Beyond Current Expenses):</label>
+            <input type="number" id="additionalExpenses" step="0.01" min="0">
+        </div>
+        
+        <div style="margin-top: 20px; color: #555; font-style: italic;">Calculations update automatically as values change.</div>
+    </form>
+    
+    <div id="results"></div>
+    
+    <script>
+        // Update the expenses and savings display when slider changes
+        document.getElementById('expensesSavingsSlider').addEventListener('input', function() {
+            const monthlyTakeHome = parseFloat(document.getElementById('monthlyTakeHome').value) || 0;
+            const sliderValue = parseFloat(this.value);
+            const savingsPercentage = sliderValue / 100;
+            
+            const monthlySavings = monthlyTakeHome * savingsPercentage;
+            const monthlyExpenses = monthlyTakeHome - monthlySavings;
+            const savingsRate = sliderValue;
+            
+            document.getElementById('displayMonthlyExpenses').textContent = monthlyExpenses.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+            document.getElementById('displayMonthlySavings').textContent = monthlySavings.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+            document.getElementById('displaySavingsRate').textContent = savingsRate.toFixed(2);
+        });
+        
+        // Calculate retirement info
+        function calculateRetirement() {
+            const incomeTaxRate = parseFloat(document.getElementById('incomeTaxRate').value) || 0;
+            const capitalGainsTaxRate = parseFloat(document.getElementById('capitalGainsTaxRate').value) || 0;
+            const charityRate = parseFloat(document.getElementById('charityRate').value) || 0;
+            const savingsReturnRate = parseFloat(document.getElementById('savingsReturnRate').value) || 0;
+            const retirementReturnRate = parseFloat(document.getElementById('retirementReturnRate').value) || 0;
+            const inflationRate = parseFloat(document.getElementById('inflationRate').value) || 0;
+            const currentAge = parseFloat(document.getElementById('currentAge').value) || 0;
+            const retirementAge = parseFloat(document.getElementById('retirementAge').value) || 0;
+            const monthlyTakeHome = parseFloat(document.getElementById('monthlyTakeHome').value) || 0;
+            const sliderValue = parseFloat(document.getElementById('expensesSavingsSlider').value);
+            const savingsPercentage = sliderValue / 100;
+            const monthlySavings = monthlyTakeHome * savingsPercentage;
+            const monthlyExpenses = monthlyTakeHome - monthlySavings;
+            const additionalExpenses = parseFloat(document.getElementById('additionalExpenses').value) || 0;
+
+            const yearsUntilRetirement = Math.max(retirementAge - currentAge, 0);
+            const annualSavings = monthlySavings * 12;
+            const annualExpenses = monthlyExpenses * 12;
+            const retirementAnnualNeed = (annualExpenses + (additionalExpenses * 12));
+            const safeWithdrawalRate = 0.04;
+            const goalNestEgg = retirementAnnualNeed / safeWithdrawalRate;
+
+            // Future value of monthly savings contribution
+            const monthlyReturnRate = savingsReturnRate / 100 / 12;
+            const totalMonths = Math.floor(yearsUntilRetirement * 12);
+            let futureValueSavings = 0;
+            if (monthlyReturnRate > 0 && totalMonths > 0) {
+                futureValueSavings = monthlySavings * ((Math.pow(1 + monthlyReturnRate, totalMonths) - 1) / monthlyReturnRate) * (1 + monthlyReturnRate);
+            } else {
+                futureValueSavings = monthlySavings * totalMonths;
+            }
+
+            // projected nest egg after retirement growth (simple one-year check)
+            const yearOneRetirementBalance = futureValueSavings * (1 + retirementReturnRate / 100) - retirementAnnualNeed;
+            const inflationAdjustedNeed = retirementAnnualNeed / (1 + inflationRate / 100);
+
+            const shortfall = goalNestEgg - futureValueSavings;
+            const shortfallText = shortfall > 0 ? `Shortfall: $${shortfall.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}` : 'No shortfall, goal reached.';
+
+            // Optimal balance for same lifestyle: required monthly savings and expense (assuming same take-home pay)
+            let requiredMonthlySavings = 0;
+            if (totalMonths > 0) {
+                if (monthlyReturnRate > 0) {
+                    const compoundFactor = (Math.pow(1 + monthlyReturnRate, totalMonths) - 1) / monthlyReturnRate * (1 + monthlyReturnRate);
+                    requiredMonthlySavings = goalNestEgg / compoundFactor;
+                } else {
+                    requiredMonthlySavings = goalNestEgg / totalMonths;
+                }
+            }
+            const requiredSavingsRate = monthlyTakeHome > 0 ? (requiredMonthlySavings / monthlyTakeHome) * 100 : 0;
+            const requiredMonthlyExpenses = Math.max(monthlyTakeHome - requiredMonthlySavings, 0);
+
+            // Determine required retirement age if shortfall exists
+            let requiredRetirementAgeText = 'No later age required; on track with current plan.';
+            if (shortfall > 0) {
+                let requiredRetirementAge = null;
+                for (let age = retirementAge + 1; age <= 100; age++) {
+                    const months = (age - currentAge) * 12;
+                    if (months <= 0) continue;
+                    let projectedFV = 0;
+                    if (monthlyReturnRate > 0) {
+                        const factor = (Math.pow(1 + monthlyReturnRate, months) - 1) / monthlyReturnRate * (1 + monthlyReturnRate);
+                        projectedFV = monthlySavings * factor;
+                    } else {
+                        projectedFV = monthlySavings * months;
+                    }
+                    if (projectedFV >= goalNestEgg) {
+                        requiredRetirementAge = age;
+                        break;
+                    }
+                }
+                if (requiredRetirementAge) {
+                    requiredRetirementAgeText = `Required retirement age to eliminate shortfall: ${requiredRetirementAge}`;
+                } else {
+                    requiredRetirementAgeText = 'Shortfall cannot be eliminated by age 100 with current savings level.';
+                }
+            }
+
+            document.getElementById('results').innerHTML = `
+                <h2>Retirement Calculation Results</h2>
+                <p><strong>Years Until Retirement:</strong> ${yearsUntilRetirement}</p>
+                <p><strong>Inflation-Adjusted Annual Need Now:</strong> $${inflationAdjustedNeed.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>Retirement Annual Need:</strong> $${retirementAnnualNeed.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>Target Nest Egg (4% Rule):</strong> $${goalNestEgg.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>Projected Savings at Retirement:</strong> $${futureValueSavings.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>${shortfallText}</strong></p>
+                <p><strong>1st Year After Retirement Balance Estimate:</strong> $${yearOneRetirementBalance.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <hr>
+                <p><strong>Recommended Savings Rate:</strong> ${requiredSavingsRate.toFixed(2)}%</p>
+                <p><strong>Optimal Monthly Savings:</strong> $${requiredMonthlySavings.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>Optimal Monthly Expenses:</strong> $${requiredMonthlyExpenses.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2})}</p>
+                <p><strong>${requiredRetirementAgeText}</strong></p>
+                <p><strong>Assumptions:</strong> monthly savings invested at ${savingsReturnRate.toFixed(2)}% annual return; after retirement return set to ${retirementReturnRate.toFixed(2)}%.</p>
+            `;
+        }
+
+        // Attach input events for automatic recalculation
+        const inputFields = [
+            'incomeTaxRate', 'capitalGainsTaxRate', 'charityRate',
+            'savingsReturnRate', 'retirementReturnRate', 'inflationRate',
+            'currentAge', 'retirementAge', 'monthlyTakeHome', 'additionalExpenses', 'expensesSavingsSlider'
+        ];
+
+        inputFields.forEach(id => {
+            const el = document.getElementById(id);
+            if (!el) return;
+            el.addEventListener('input', calculateRetirement);
+        });
+
+        // Initial calculation on load
+        calculateRetirement();
+    </script>
+
