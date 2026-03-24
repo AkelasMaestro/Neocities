@@ -2,7 +2,11 @@
 <html lang="en">
 
 <body>
+    <!-- Create a form for all the inputs -->
     <form id="retirementForm">
+      <!-- each subsection is broken up with a header, inputs, and default values -->
+
+      <!-- Percentages for taxes and tithes -->
         <div class="form-section">
             <h4>Tax Rates</h4>
             <label for="incomeTaxRate">Income Tax Rate (%):</label>
@@ -14,7 +18,8 @@
             <label for="charityRate">Charity Rate (%):</label>
             <input type="number" id="charityRate" step="0.01" min="0" max="100" value="11">
         </div>
-        
+
+       <!-- Percentages for return rates and inflation --> 
         <div class="form-section">
             <h4>Rates of Return</h4>
             <label for="savingsReturnRate">Annual Return Rate While Saving (%):</label>
@@ -26,7 +31,8 @@
             <label for="inflationRate">Inflation Rate (%):</label>
             <input type="number" id="inflationRate" step="0.01" min="0" max="100" value="2.3">
         </div>
-        
+
+       <!-- Current age and desired retirement age --> 
         <div class="form-section">
             <h4>Personal Information</h4>
             <label for="currentAge">Current Age:</label>
@@ -35,13 +41,15 @@
             <label for="retirementAge">Desired Age of Retirement:</label>
             <input type="number" id="retirementAge" step="1" min="0" max="120">
         </div>
-        
+       
+      <!-- Income. Handles annual salary, monthly take home, or hourly wage and weekly hours -->
         <div class="form-section">
             <h4>Income</h4>
             <label for="monthlyTakeHome">Current Monthly Take-Home Pay:</label>
             <input type="number" id="monthlyTakeHome" step="0.01" min="0">
         </div>
-        
+       
+      <!-- Set dollar amount or percentage of savings or spent each month -->
         <div class="form-section">
             <h4>Monthly Budget</h4>
             <label>Adjust Monthly Savings vs Expenses:</label>
@@ -52,18 +60,22 @@
                 <div>Current Monthly Expenses: $<span id="displayMonthlyExpenses">0.00</span></div>
             </div>
         </div>
-        
+       
+      <!-- Set how much monthly expenses increase after retirement -->
         <div class="form-section">
             <h4>Retirement Expenses</h4>
             <label for="additionalExpenses">Additional Monthly Expenses After Retirement (Beyond Current Expenses):</label>
             <input type="number" id="additionalExpenses" step="0.01" min="0">
         </div>
-        
-        <div style="margin-top: 20px; color: #555; font-style: italic;">Calculations update automatically as values change.</div>
+
+      <!-- Add a little note stating that calculations have already been done --> 
+      <p>Calculations are updated automatically as the fields are filled.</p>
     </form>
-    
+   
+    <!-- print out the "results" value created by the script -->
     <div id="results"></div>
-    
+   
+    <!-- This is where the math happens -->
     <script>
         // Update the expenses and savings display when slider changes
         document.getElementById('expensesSavingsSlider').addEventListener('input', function() {
@@ -80,7 +92,7 @@
             document.getElementById('displaySavingsRate').textContent = savingsRate.toFixed(2);
         });
         
-        // Update slider display when monthly take home changes
+        // 
         function calculateRetirement() {
             const incomeTaxRate = parseFloat(document.getElementById('incomeTaxRate').value) || 0;
             const capitalGainsTaxRate = parseFloat(document.getElementById('capitalGainsTaxRate').value) || 0;
