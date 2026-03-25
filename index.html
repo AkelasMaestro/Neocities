@@ -23,18 +23,7 @@ We're super excited. Think modern LAN party. It will be four days of good
 food, friends, and video games.
 </p>
 
-<h3>Latest Post:</h3>
-
-<ul class="myposts">
-{% for post in site.posts limit:1 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a>
-  <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
-  {{ post.excerpt }}
-  </li>
-{% endfor %}
-</ul>
-
-<h3>Featured</h3>
+<h3>Featured Post</h3>
 
 <ul class="myposts">
   {% assign featured_post = site.posts | where: "title", "Patlabor Model" | first %}
@@ -44,6 +33,18 @@ food, friends, and video games.
   </li>
 </ul>
 
+<h3>Latest Posts:</h3>
+
+<ul class="myposts">
+{% for post in site.posts limit:3 %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
+  {{ post.excerpt }}
+  </li>
+{% endfor %}
+</ul>
+
+<!--
 <h3>Quick References</h3>
 
 <p>
@@ -55,3 +56,4 @@ This is where I'm going to put links to items I look at regularly. Stay tuned.
   <li>workout progess</li>
   <li>YouTube Channels</li>
 </ul>
+-->

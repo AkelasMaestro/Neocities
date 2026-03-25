@@ -21,6 +21,25 @@ body {
     background-color: var(--background-color);
 }
 
+h2 { /* titles of posts and articles */
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+strong {
+    color: var(--strong-color);
+}
+
+a {
+    color: var(--links-color);
+}
+
+.myposts ul { /* Used for listing posts and projects */
+  list-style-type: none;
+}
+
 /* Set the default image size for all content */
 .post-content img {
     max-width: 50%;  /* Limit the image width to the container’s width */
@@ -29,7 +48,7 @@ body {
     margin: 0 auto;
 }
 
-/* Start of the primary website header styling */
+/* Start of the primary website header */
 header {
     background-color: var(--header-background);
     background-position: center top;
@@ -74,9 +93,9 @@ header a:hover {
   object-position: 0% 50%;
   vertical-align: middle; /* lower the image so it centers with text */
 }
-/*End of primary website header styling */
+/*End of primary website header */
 
-/* Start of Navigation Links Styling */
+/* Start of Navigation Links */
 nav ul {
   font-size: 1.1rem;
   display: flex;
@@ -98,23 +117,7 @@ nav li a {
   text-align: center;
   padding: 1em 0;
 }
-/* End of Navigation Links styling */
-
-h2 {
-  text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-strong {
-    color: var(--strong-color);
-}
-
-a {
-    color: var(--links-color);
-}
+/* End of Navigation Links */
 
 /* formats for forms. Currently only used for the finance calculator */
 .form-section {
@@ -162,7 +165,6 @@ input[type="range"] {
 /*End of forms styling */
 
 /* footer formats */
-
 footer {
     text-align: center;
     border-top: 2px solid var(--body-text);
@@ -174,3 +176,4 @@ footer {
 footer a {
   color: var(--body-text);
 }
+/* End of footer formats */
