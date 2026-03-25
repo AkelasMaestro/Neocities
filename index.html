@@ -14,7 +14,14 @@ making things. Poke around and get to know me! If you like something
 or want to know more, feel free to reach out.
 </p>
 
-<h3>Latest Update:</h3>
+<h3>Thought of the Day</h3>
+<p>
+2026-03-25. The wife and I are getting ready for our semi-annual trip to Game Weekend!
+We're super excited. Think modern LAN party. It will be four days of good
+food, friends, and video games.
+</p>
+
+<h3>Latest Post:</h3>
 
 <ul class="myposts">
 {% for post in site.posts limit:1 %}
@@ -28,7 +35,7 @@ or want to know more, feel free to reach out.
 <h3>Featured</h3>
 
 <ul class="myposts">
-  {% assign featured_post = site.posts | where: "title", "My Yellow Jacket" | first %}
+  {% assign featured_post = site.posts | where: "title", "Patlabor Model" | first %}
   <li><a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
   <span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}</span>
   {{ featured_post.excerpt }}

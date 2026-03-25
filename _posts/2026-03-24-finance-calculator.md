@@ -2,7 +2,7 @@
 title: Finance Calculator
 layout: post 
 categories: projects
-date: 2026-03-23
+date: 2026-03-25
 ---
 
 My notes and progress on the finance calculator project.
@@ -13,7 +13,7 @@ I often day dream of living frugally, saving as much as possible, and retiring e
 
 This will also be an opportunity to branch into using JavaScript in this otherwise very basic website. Yes, the calculator will be nice once it's done, but I'm also looking forward to using it as a learning opportunity.
 
-I tried using AI to make the calculator, but it ended up making more of a mess than I cared for. It proved it can work though. I may be able to use snippets of the AI generated code and put it into helper functions.
+I did make an initial prototype using AI. You can find it [here](/_posts/2026-03-25-old-finance-calculator.md). It doesn't have all the features I'd like and I'm not certain the math is accurate, but it gets the vision across.
 
 ### Overall Design
 
@@ -33,41 +33,31 @@ I tried using AI to make the calculator, but it ended up making more of a mess t
 5. Rate of return once retired (4%)
 6. Rate of inflation (2.3%)
 7. How much monthly expenses go up after retirement (ex: health insurance)
-8. Years to Retirement
-9. income: annual salary, monthly take home, or hourly wage and weekly hours
-10. monthly expenses: $ savings, $ expenses, or % savings.
+8. Current savings
+9. Years to Retirement
+10. income: annual salary, monthly take home, or hourly wage and weekly hours
+11. monthly expenses: $ savings, $ expenses, or % savings.
 
 #### Do the math
 
-Convert percentages to decimals
-
-```
-incomeTax = incomeTaxPerc * 100
-gainsTax = gainsTaxPerc * 100
-charity = charityPerc * 100
-```
-
-Calculate monthly take home pay if given annual salary or hourly wage.
-
-```
-calc_take_home(value, hours = 40, option = 1)
-  // options: annual salary (1), hourly wage (2), take home pay (3)
-  if option == 2:
-    value = value * hours * 52
-  
-  if option == 1:
-    monthly = value / 12 / incomeTax
-    take_home = monthly / charity
-
-  elif option == 2:
-    annual = value * hours * 52
-    monthly = annual / 12 / incomeTax
-    take_home = monthly / charity
-    
-  else: // option 3
-    take_home = value
-```
-
-1. calculate
+??? I'll be honest, I don't really know what I'm doing in this part.
 
 #### Output results
+
+Give a summary of the data entered and the assumptions made.
+
+Given income and expenses,
+How many years until retirement?
+
+Given savings and years,
+What are the maximum retirement expenses I can sustain?
+
+Given years to retirement and income,
+What kind of monthly expenses can I have now and sustain into retirement?
+How much do I need to save?
+
+### 2026-03-25
+
+I have succumb to temptation and used AI to create a class that handles the math. Why a class? Because I come from a casual Python background, and python uses classes. But one of the stated goals of this project is to learn JavaScript, so I started reading the documentation and find a guide on [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide). And what do I find? That one of the main differences between JavaScript and Java is that JavaScript is object oriented rather than class oriented. I have never worked with Java, and I don't know what the difference between a class and an object even is!
+
+I am reminded of a company moto I saw online: "We do things not because they are easy, but because we thought they would be easy". The hidden gem there is the importance of pressing forward anyway. I'm going to set aside the AI generated class for now and start going through the JavaScript guide to learn the language properly. The AI code may still be useful as a guide for future functions, so it's not a total loss.
