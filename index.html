@@ -17,10 +17,10 @@ reach out.
 </p>
 
 <h3>Thought of the Day</h3>
+
+{% assign daily = site.posts | where: "categories", "daily-thought" | first %}
 <p>
-2026-03-25. The wife and I are getting ready for our semi-annual trip to Game Weekend!
-We're super excited. Think modern LAN party. It will be four days of good
-food, friends, and video games.
+{{ daily.excerpt }}
 </p>
 
 <h3>Featured Post</h3>

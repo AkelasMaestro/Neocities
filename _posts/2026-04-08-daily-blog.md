@@ -1,0 +1,1 @@
+/home/akelas/Documents/Personal-Vault/2026-04-08-daily-blog.md
