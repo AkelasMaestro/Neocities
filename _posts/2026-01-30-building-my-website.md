@@ -8,6 +8,10 @@ date: 2026-03-08
 
 A history of my process in making this website. More than a change log, but less than a tutorial.
 
+## Update 2026-04-18
+
+I have updated the daily thought on the home age to pull from a list of daily thoughts. I used the excerpt function from Liquid to pull the top paragraph which I thought was an elegant solution. I also added a link to the list of daily thoughts.
+
 ## Update 2026-03-08
 
 I finally uploaded a proper profile picture. Obviously, it's not the real me. It's a head shot of a model mech I built from the show "Patlabor". I'm writing up an article on the model and will release it eventually.
