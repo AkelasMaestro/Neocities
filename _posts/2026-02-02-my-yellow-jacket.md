@@ -1,6 +1,6 @@
 ---
 layout: default
-categories: blogs
+categories: blog
 title: My Yellow Jacket
 author: Akelas Maestro
 date: 2026-02-02

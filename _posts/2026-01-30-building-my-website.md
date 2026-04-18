@@ -3,7 +3,7 @@ layout: post
 category: projects
 title: Building My Website
 author: Akelas Maestro
-date: 2026-03-08
+date: 2026-04-18
 ---
 
 A history of my process in making this website. More than a change log, but less than a tutorial.
@@ -11,6 +11,8 @@ A history of my process in making this website. More than a change log, but less
 ## Update 2026-04-18
 
 I have updated the daily thought on the home age to pull from a list of daily thoughts. I used the excerpt function from Liquid to pull the top paragraph which I thought was an elegant solution. I also added a link to the list of daily thoughts.
+
+I have changed the format blog lists. They're no longer listed in unordered lists, just separate lines. I was trying to figure out how to remove the bullet points and justify the text when it occurred to me that I could just remove the list entirely.
 
 ## Update 2026-03-08
 

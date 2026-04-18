@@ -23,39 +23,31 @@ reach out.
 {{ daily.excerpt }}
 </p>
 
-<p>For previous daily thoughts <a href"{% link _posts/2026-04-08-daily-blog.md %}">click here</a>.</p>
+<p>
+For previous daily thoughts 
+<a href"{% link _posts/2026-04-08-daily-blog.md %}">click here</a>.
+</p>
 
 <h3>Featured Post</h3>
 
-<ul class="myposts">
-  {% assign featured_post = site.posts | where: "title", "Patlabor Model" | first %}
-  <li><a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
-  <span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}</span>
-  {{ featured_post.excerpt }}
-  </li>
-</ul>
+{% assign featured_post = site.posts | where: "title", "Patlabor Model" | first %}
+<p>
+<a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
+<span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}</span>
+{{ featured_post.excerpt }}
+</p>
 
 <h3>Latest Posts:</h3>
 
-<ul class="myposts">
-{% for post in site.posts limit:3 %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a>
-  <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
-  {{ post.excerpt }}
-  </li>
+{% for post in site.posts limit:5 %}
+  {% unless post.path == "_posts/2026-04-08-daily-blog.md" or post.path == "_posts/2026-01-30-building-my-website.md" %}
+    <p><a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
+    {{ post.excerpt }}
+    </p>
+  {% endunless %}
 {% endfor %}
-</ul>
 
-<!--
 <h3>Quick References</h3>
 
-<p>
-This is where I'm going to put links to items I look at regularly. Stay tuned.
-</p>
-
-<ul>
-  <li>packing lists</li>
-  <li>workout progess</li>
-  <li>YouTube Channels</li>
-</ul>
--->
+<a href="{% link _posts/2026-01-30-building-my-website.md %}">Change Log</a>
