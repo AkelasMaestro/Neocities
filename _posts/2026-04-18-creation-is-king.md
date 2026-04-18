@@ -1,10 +1,18 @@
 ---
 categories: blog
-title: To Be Human Is To Create
+layout: post
+title: Creation is King
+date: 2026-04-18
 ---
 Feeling depressed? Make something. You'll feel better.
 
-## What separates mankind from the rest of the animal kingdom?
+## TL;DR
+
+Just go make something. Surviving is to maintain the status quo. Thriving is to make something new. What ever you end up making will be bad by your own estimation, but that's okay! It's perfect because it's the first step. If you're feeling lost or bored or down, go find something to make.
+
+## Man vs Beast
+
+This section is more about how I came to this idea, but you may find it too religious or philosophical. Feel free to skip this bit.
 
 A year or two ago, my dad and I had a discussion on what sets humans apart from the rest of the animal kingdom. From a scientific perspective, my dad and I remember being taught that it was mankind's ability to communicate or use tools. And we both remembered headlines over the years stating some animal had been observed communicating, or making and using tool. With each headline, the line between man and beast seemed to blur.
 
@@ -15,7 +23,7 @@ Raised religious, I was taught that only mankind was made in God's image, which 
 
 I want to focus on a particular aspect of man's capacity: the capacity to create. If we are made in God's image, and he made things, then I would suggest that we take a step toward divinity and our better selves when we create. Conversely, a lack of creation is a step away from our potential.
 
-## Okay, but why does that matter?
+## Creation vs. Consumption
 
 All of your actions fall on a spectrum between consumption and creation. Too much of either is unbalanced and unhealthy. But who are the people we admire or idolize the most? People who create. Actors and musicians come to mind first, but even athletes, who train their bodies, create and develop skills and teamwork. Mentors and teachers create an environment of growth and opportunity. Friends and Family create memories and connections.
 
@@ -29,14 +37,23 @@ If you're feeling down or lost or unsettled or without purpose, go make somethin
 
 ## How To Get started
 
-1) Pick a thing.
-2) Google the thing.
-3) write down or somehow record the thing.
-4) Try the thing (probably very badly)
-5) Observe what went wrong.
-6) Google the thing again, this time with a specific question.
-7) Rinse and Repeat.
+1. Pick a thing.
+2. Google the thing.
+3. write down or somehow record the thing.
+4. Try the thing (probably very badly)
+5. Observe what went wrong.
+6. Google the thing again, this time with a specific question.
+7. Rinse and Repeat.
 
 The best way to learn is to do. Accept that the first time trying something is going to be very bad and not at all what you intended it to be. That's okay. No one is born capable. Talent is practiced, not innate.
 
-If you really want to do something, but run into road blocks, acknowledge the road blocks. Look at them, measure them, brainstorm solutions. Let it be a slow process. I never suggested you need to create for other people. The process is wholly for yourself. Sometimes, roadblocks are significant enough, that you do have to turn around and try something else. But make that a deliberate decision. Either do the thing or not, but do not linger in the "I wish I could" spot.
+>"Talent is pursued interest. Anything you are willing to practice, you can do"  
+-[Bob Ross](https://www.goodreads.com/quotes/769366-talent-is-a-pursued-interest-anything-that-you-re-willing-to)
+
+If you really want to do something, but run into road blocks, acknowledge the road blocks. Look at them, measure them, brainstorm solutions. Enjoy overcoming those obstacles. It's okay if it's a slow process. I never suggested you need to create for other people. The process is wholly for yourself, so work on your own timeline. Sometimes, roadblocks are significant enough, that you do have to turn around and try something else. But make that a deliberate decision. Either do the thing or not, but do not linger in the "I wish I could" spot.
+
+If an idea for something to make hasn't occurred to you yet, maybe [Hank Green's advice](https://youtu.be/f%5C_Rqf-vxBM8) could help. The link goes to a 12-minute YouTube video titled, "Don't follow your dreams, follow your tools". It's common to admire what other's create, but many then assume that they have to create in the exact same way. This overlooks all individual and unique circumstances that creator found themselves in. Find your own process! Look at what tools you already have around you and see what you can make of them. Let finding your process be part of the creating.
+
+Hope this is helpful in getting you started. If you found it helpful and start making something, let me know! I'd love to hear about your projects.
+
+Happy creating!

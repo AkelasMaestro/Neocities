@@ -1,7 +1,8 @@
 ---
 title: Thought of the Day
+layout: post
 categories: daily-thought
-date: 2026-04-08
+date: 2026-04-18
 tags:
   - Website-Ideas
 ---
