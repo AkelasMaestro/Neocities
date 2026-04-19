@@ -2,7 +2,7 @@
 categories: blog
 layout: post
 title: Creation is King
-date: 2026-04-18
+date: 2026-04-19
 ---
 Feeling depressed? Make something. You'll feel better.
 
@@ -57,3 +57,32 @@ If an idea for something to make hasn't occurred to you yet, maybe [Hank Green's
 Hope this is helpful in getting you started. If you found it helpful and start making something, let me know! I'd love to hear about your projects.
 
 Happy creating!
+
+## Update: 2026-04-19
+
+There is nothing new under the sun. I originally published this article just yesterday and I already found someone who said it better than I did.
+
+[Here's the YouTube video](https://www.youtube.com/watch?v=2n8W6CBxc64) from the channel Struthless if you're interested in the source. The bulk of the video lists 10 ideas to start making things, which I have listed below, but he basically makes the same point I tried to make, but better.
+
+Some of my main take aways:
+
+1. Inspiration comes mostly during the process, not before.
+2. It's okay to get a book of quotes and just start there.
+3. Prolonged exposure to trauma can be worse than actually experiencing it.
+>
+>1. No coping methods, and no agency in the matter. (another reason I avoid the 24-hour news)
+>
+1. Creativity can lead to 23% increase in happiness.
+
+Ideas to get started as presented by Struthless:
+
+1. Turn a mistake into art.
+2. Pick a quote and make it art.
+3. Write a letter to a friend.
+4. Remake something you love.
+5. Personify the resistance getting in your way.
+6. Collaborate with someone without know their portion.
+7. Follow a theme (Shakespeare, Hallmark, characters in primary colors etc)
+8. Alter one thing into another thing (collages, reviews, remixes)
+9. Answer famous questions.
+10. Constraint challenges (i.e. one picture a day, only use one color etc.)
