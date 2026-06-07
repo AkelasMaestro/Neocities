@@ -6,21 +6,11 @@ permalink: /about/
 ---
 ## About
 
-Real quick: If you're coming from work or a similar professional space, this website is not for you. This website is for me to share my weird little opinions, pontifications, and side projects that most people in my day-to-day don't need to hear. If I wanted you to hear them, I would have put it on LinkedIn. If you found me here, you're trying too hard. I intentionally chose this obscure, semi-anonymous space for a reason. If you're not here to judge, but to vibe, come hang out!
+I am a university student studying transportation and civil engineering. Publicly, I love public transit systems, trains, and aspire to build more cohesive communities. Privately, I like a lot of different things. That's where this website comes in. Projects, rants, musings, and lists of things I like will all be kept here. Will it be good? Who knows! That's not the point. I just want to make something.
 
-My name is Akelas Maestro, but most just use Akelas (Uh-key-lus). I am a university student studying civil engineering with a focus on transportation. I spend 20+ hours a week on public transit and love every bit of it. Sometimes, I wonder if I would rather be a software engineer, but then I remember mechanically stabilized earth and my hatred for car dependency and go back to my studies.
+I chose to write under a pseudonym primarily to keep professional contacts from googling me and coming across this website before whatever curated social media I have made for the purpose. I avoid publishing photos of myself and people I know for a similar reason.
 
-## Why a blog?
-
-My mind is a loud and sometimes chaotic place, which is where this website comes in. IRL, I am generally a very sociable person, but I also have a habit of just vomiting thoughts onto people. My intention here is have a place to let those thoughts out and run free. If the inside of my head is a mind palace (More like a cluttered studio apartment, but that's beside the point), then this website is the backyard garden: not designed to face to be public facing, but curated nonetheless. I just need a place to send rambunctious thoughts when they're bouncing off the walls, knocking over furniture, and disturbing my house guests.
-
-## Why not use a private journal?
-
-Because that's no fun! Even the most rambunctious thoughts need to learn table manners. Something about writing down my ideas, opinions, or thought process helps refine them and bring them into focus. Knowing whatever I put up here might be seen by anyone motivates me to take the time and process my thoughts.
-
-## Why not use a normal social media?
-
-Better question: Do my family, friends, and professional contacts really need to know? Do they even care? If you're reading this website, I either invited you here in person, or you've stumbled upon me in your own wanderings on the internet. I don't know how much you do or do not read, and I don't need to (though if you'd like to reach out, I'd love to hear from you). If you're interested in what I have to say, you have to search this place out and ask. Normal social media feels too much like shouting my opinions on a full bus. But here? You had to come to my door and ask to talk. I don't know about you, but that feels like a much more comfortable setting. There's also the fact that social media companies are advertisers first and foremost and their algorithms prioritize short text and pretty pictures. Don't know if you can tell yet, but I am too long winded for that!
+I hope you find something you enjoy. Got questions or want to know more? Shoot me an email! <ContactAkelas@proton.me>.
 
 ## Where does the name Akelas Maestro come from?
 
@@ -35,3 +25,9 @@ Fast forward two-three years. I'm starting to get more involved in the gaming gr
 So yeah. That's how I got my name.
 
 Bonus Fact: my wife got involved in the group recently and we had to come up with her name. She did not have a cool story at the time or  a previous name. We ended up settling on Gigglez which proved appropriate. My wife, bless her heart, is, at times, very shy and always extremely froo froo. The nervous or excited giggles are endless.
+
+## Dedication
+
+This site is dedicated to my late father who passed away in July, 2025. We would always have Monday night phone calls to chat which would usually become me rambling on about my latest fixation. I wish I had listened more. Anyway, I post here all the things I would have otherwise shared with him. Putting it out to the world gives me hope he can see it wherever he might be.
+
+I love you, Dad. Miss you.

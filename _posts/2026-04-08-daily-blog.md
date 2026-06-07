@@ -6,6 +6,10 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
+2026-06-06. Today was spent building a lightsaber! My in-laws were super helpful and my wife took photos. I'll post a full report once I get some better photos.
+
+2026-06-06. One of my greatest joys in Brazil: walking to the bakery every morning with my father-in-law to get the day's bread. The American mind cannot comprehend how rejuvenating this experience really is.
+
 2026-04-18. The Union Pacific Big Boy is in town!!! To celebrate the end of the semester, the wife and I are taking the day to visit the Union Station in Ogden Utah and see the largest functional steam engine in the U.S.
 
 2026-04-18. Just walked out of my final exam of the semester and feeling good about it. I am free! Now I just have to catch up on neglected house chores...
