@@ -2,9 +2,11 @@
 layout: post
 categories: blog
 title: Patlabor Model
-date: 2026-03-09
+date: 2026-06-11
 ---
 My first foray into model making, photography, and silly poses.
+
+2026-06-11 update: I cropped and compressed the images so now the page loads faster.
 
 ![patlabor model standing](/resources/patlabor-attention.jpg)
 
