@@ -6,6 +6,8 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
+2026-06-11. There is something very satisfying to have a place (this website) to record my projects (lightsaber builds). Not only does it make it easier to share with friends and family, it also lets me savor a good project as I put together the write up and the photos.
+
 2026-06-06. Today was spent building a lightsaber! My in-laws were super helpful and my wife took photos. I'll post a full report once I get some better photos.
 
 2026-06-06. One of my greatest joys in Brazil: walking to the bakery every morning with my father-in-law to get the day's bread. The American mind cannot comprehend how rejuvenating this experience really is.
