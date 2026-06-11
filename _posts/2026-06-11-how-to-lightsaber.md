@@ -44,6 +44,7 @@ You have by now watched several videos of sabers being assembled. You should hav
 Repeat these four steps and jump between them as necessary. Good luck.
 
 All the best,
+
 Akelas
 
 ## References
