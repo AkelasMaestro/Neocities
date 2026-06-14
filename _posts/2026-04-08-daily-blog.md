@@ -6,6 +6,8 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
+2026-06-14. Second lightsaber is done! The full report and photos will come in the next couple days.
+
 2026-06-11. There is something very satisfying to have a place (this website) to record my projects (lightsaber builds). Not only does it make it easier to share with friends and family, it also lets me savor a good project as I put together the write up and the photos.
 
 2026-06-06. Today was spent building a lightsaber! My in-laws were super helpful and my wife took photos. I'll post a full report once I get some better photos.
