@@ -8,6 +8,8 @@ layout: post
 
 Using little more than bamboo and a lot of rope, I built a 25-ft tall tower. This article records the why and how.
 
+### Table of Contents
+
 * TOC
 {:toc}
 
