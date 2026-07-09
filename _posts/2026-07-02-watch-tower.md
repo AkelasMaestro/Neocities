@@ -1,6 +1,6 @@
 ---
 title: Bamboo Watch Tower
-date: 2026-07-02
+date: 2026-07-09
 author: Akelas Maestro
 categories: projects
 layout: post
@@ -8,7 +8,10 @@ layout: post
 
 Using little more than bamboo and a lot of rope, I built a 25-ft tall tower. This article records the why and how.
 
-## Why a Watch Tower?
+* TOC
+{:toc}
+
+### Why a Watch Tower?
 
 I used to be big into scouting here in the USA and participated from the ages of seven, observing the cub scouts, to twenty one, as an assistant scout master. For years, I would idling flip through the pages on pioneering projects in my handbook, day dreaming of making the various bridges and towers they outlined. My favorite structure was the hourglass tower which used two tripods lashed together; it's triangular frame was a fun contrast to the other more rectangular projects and the creative use of an inverted tripod is a style I would never have come up with on my own. Below is a diagram of the tower from the [South African Scout Wiki](https://scoutwiki.scouts.org.za/w/index.php?curid=6245); I don't know how it compares to my long-lost handbook, but it gets the idea across.
 
@@ -16,7 +19,7 @@ I used to be big into scouting here in the USA and participated from the ages of
 
 For insurance reasons, the BSA required structures that would put a scout more than 6ft off the ground to get special permissions. I never attended a camp that had arranged for that approval, so I never built the tower while I was in scouting. Jump to present day, and I find myself in Brazil with my father-in-law(FIL) showing me his cousin's farm. When he showed me the bamboo grove with an open license to build whatever I'd like, I knew immediately what to do! It was finally time to build my tower.
 
-## Day Zero: Planning the Build
+### Day Zero: Planning the Build
 
 I speak enough Portuguese to get by, but there's still a language barrier, so I started with building a model. Not only did it serve to immediately communicate what I was trying to do to my FIL and cousin, it also helped me to estimate the lengths of bamboo and rope I would need. I made the model with wooden skewers and yarn.
 
@@ -28,9 +31,9 @@ You'll notice that my design does not use dual tripods, but rather attaches the 
 
 My FIL, cousin, and I chose to put the tower on part of the farm that was close to the bamboo grove and overlooked the chicken coup. My cousin had had issues with various pests attacking his chickens, and thought the tower would make a good shooting platform. It was on a slight hill rather than flat ground which made leveling the tower a challenge.
 
-## Day One: Building the Tripod
+### Day One: Building the Tripod
 
-### Collecting the Bamboo
+#### Collecting the Bamboo
 
 There were two challenges in collecting the bamboo: location and weight. The primary tripod legs were to be made of the thicker, yellow bamboo. But the grove had a small stream winding through it with steep, muddy sides covered with leaf litter. Naturally, the straightest, healthiest-looking bamboo were right on the bank of this stream. We ended up throwing in downed bamboo, brittle with age and rot, into the stream trying to make any sort of dry foothold. We had to switch to a small one-handed hatchet rather than a two-handed axe to maintain our balance. Thankfully, bamboo is hollow which made cutting a little easier.
 
@@ -38,7 +41,7 @@ There were two challenges in collecting the bamboo: location and weight. The pri
 
 Second, the thicker bamboo was shockingly heavy. Smaller pieces of bamboo, especially old and dried pieces, are feather light compared to a comparable size of wood which led to underestimating the weight of the larger fresh pieces. Bamboo is also super smooth; it's closer in texture to plastic than any natural piece of wood. Between the weight, the texture, bamboo's tendency to get tangled amongst the other tightly packed poles, and the awkward footing, my FIL and I couldn't lift the bamboo away. Worse yet, the end of the bamboo, cut at an angle, would bury itself into the soft dirt every time we set it down. For a moment, we were concerned we wouldn't be able to complete the project.
 
-![Akelas and FIL struggling to lift the free end of bamboo that has buried itself in the soft ground](/resources/watch-tower/watch-tower-2-collecting-bamboo2jpg)
+![Akelas and FIL struggling to lift the free end of bamboo that has buried itself in the soft ground](/resources/watch-tower/watch-tower-2-collecting-bamboo2.jpg)
 
 While my FIL decided to wait for my cousin to finish his farm work and help us lift, I sat down and made a tool to help us grip the bamboo. I took a short length of cord and tied both ends to a small piece of green bamboo. By wrapping the resultant bight around the yellow bamboo and passing the green bamboo through the bight, I made a self-tightening lifting handle.
 
@@ -46,7 +49,7 @@ While my FIL decided to wait for my cousin to finish his farm work and help us l
 
 I have spoken previously on the importance of just [starting in order to be creative](/_posts/2026-04-18-creation-is-king.md) and this is a good example. I had no idea how to make this lifting handle when I sat down with a cord and a stick. I had originally envisioned putting a handle on both ends. But has I tried to make it, and imagined how it would be used, the final device fell into my lap as if it was meant to be.  This is also a great example of taking time to prepare your tools. It felt like I was wasting time exploring this oddball idea that I wasn't sure would even work, but my FIL saw how much easier it was to lift the yellow bamboo, he hooped and hollered like it was some sort of miracle.
 
-### Raising the Tripod
+#### Raising the Tripod
 
 Encouraged with our success in moving the bamboo, we moved on to the next step in my plan: assembling the primary tripod. We cut three 20 meter (64 ft) bamboo poles down to 9 meters  and set the excess to the side. I eye-balled a third of the way from one end and lashed the three poles together. The plan was to put two legs down hill, and one leg up hill. Using a long piece of clear tubing filled with water, we estimated the elevation gain of the hill and cut the middle leg an equal amount shorter. I tied a rope at the end of each pole and at the lashing to act as both plumb lines and future guy lines.
 
@@ -68,7 +71,7 @@ The original plan had called for guy lines, as is standard practice for these ki
 
 With the piles in place, and realizing the tripod was too heavy to tip over for additional assembly (the traditional method for assembly scout towers), we set up some scaffolding. The scaffolding was tall enough for me to reach the crutch of the tripod and a couple meters (5-6 ft) above it. By then it was getting late, so we called it a day.
 
-## Day Two: The Floor and Rope Ladder
+### Day Two: The Floor and Rope Ladder
 
 Due to rain, we had to wait a couple days to pick up construction again. Once we got to the farm, I got to work. It was my first time ever working on scaffolding which was nerve wracking. The bamboo tripod felt more stable than the steel scaffolding, but I got accustomed quickly. I did make a [climbing harness](https://www.wikihow.com/Tie-a-Swiss-Seat-Rappel-Harness) and tied myself to the tripod as some rudimentary fall protection. I've known how to tie a harness for years, but I never thought I would ever have need for it. The rope was not rated for climbing or falls, so I tried to keep my safety lines as short as possible to minimize the shock of actually falling. Thankfully, there were no incidents.
 
@@ -84,7 +87,7 @@ The rope ladder was assembled on the ground, rolled up, attached to the aforemen
 
 Back on the ground, I tried to use the rope ladder and immediately realized it was not going to work. The rungs were way to far apart and the rope stretched more than I had anticipated. Rope ladders also pitch the user backwards shifting their weight to the hands and angling the feet on the rungs. The slick bamboo rungs made holding on to the moving ladder difficult. It was getting late again, so fixing the rope ladder would be a Day Three problem.
 
-## Day Three: Fixing the Ladder
+### Day Three: Fixing the Ladder
 
 I had hoped that I would be able to fix the ladder and finish the handrails, but the ladder took all day. We had initially hoped that we could run a couple pieces of bamboo under the rope ladder just for stability, and let the rope take all the load, but that proved impractical due to the rope stretching issue. I ended up building the ladder in place, working up one rung at a time.
 
@@ -92,9 +95,9 @@ I had hoped that I would be able to fix the ladder and finish the handrails, but
 
 Each of the twenty rungs requires two lashings. Lashings are inherently a two-handed operation, so I ended up spending most of the day literally hanging out in my rope harness. My cousin helped me cut a length of bamboo to 20 cm and put it on a lanyard to space the rungs consistently. I decided to experiment with a [japanese square lashing](https://knots3d.com/en/japanese-square-lashing-knot) hoping that the tying process would be faster and that the final square knot would hold tension better than the clove hitch I had been using up to that point. I proved myself wrong on both accounts. I tied the original rope-ladder ropes to the outside of the rungs as redundant support and to hopefully limit any sliding.
 
-![final ladder situation](/resources/watch-tower/watich-tower-6-reinforced-ladder.jpg)
+![final ladder situation](/resources/watch-tower/watch-tower-6-reinforced-ladder.jpg)
 
-## Day 4: Handrails and Sun Shade
+### Day Four: Handrails and Sun Shade
 
 Putting on the handrails was the worst part. Remember the asymmetry in the tripod? This is when I noticed it. The floor was not centered over the crutch of the tripod and the corner opposite of the ladder liked to dip down whenever I moved towards it. Bamboo is strong and flexible, but I couldn't quantify how much, so any amount of bending at that height made for a significant pucker factor. The tripod arms lean outwards more as they go upwards. The higher I placed the handrails, the more I had to lean over the edge to lash things properly. It was here I started to question the series of decisions that got me to that point.
 
@@ -104,26 +107,29 @@ The handrails can be described as three triangles lashed to the tripod arms at d
 
 The two not-ladder sides of the platform have the handrails lashed to the inside of the tripod arms to keep them over the floor rather than the void. The ladder side of the platform put the handrails on the outside of the tripod arms so they;re behind the individual getting on or off the ladder. The free ends of bamboo at the top of the ladder were trimmed down and tensioned towards the handrail above the ladder. The tension helped stabilize the free ends, making them feel more secure while getting on and off the ladder.
 
-The tower was almost done at this point, so we stopped for lunch. We came back in the afternoon to add the final touches. I reinforced the back corner of the tower with two more bamboo poles that anchored to the bottom corners of the tripod. This removed any sense of bouncing or sagging in the back corner and made it the most stable part of the tower. The ladder side of the tower is capable of shaking side to side, but it requires effort on the part of the occupant, so I left out additional reinforcement. I tied a sun shade over the tripod arms and down one side of the platform. The platform is in full sun in the morning when the sun comes at an angle, hence needing to cover one side. The shade is less than tidy which makes the whole tower look disheveled, but it's better than baking in the sun.
+The tower was almost done at this point, so we stopped for lunch. We came back in the afternoon to add the final touches. I reinforced the back corner of the tower with two more bamboo poles that anchored to the bottom corners on the tripod. This removed any sense of bouncing or sagging in the back corner and made it the most stable part of the tower. The ladder side of the tower is capable of shaking side to side, but it requires effort on the part of the occupant, so I left out additional reinforcement. I tied a sun shade over the tripod arms and down one side of the platform. The platform is in full sun in the morning when the sun comes at an angle, hence needing to cover one side. The shade is less than tidy which makes the whole tower look disheveled, but it's better than baking in the sun.
 
-![Profile of finished tower showing the sun shade and the structural reinforcements](/resources/watch-tower/watch-tower-7-stabilizers/jpg)
+![Profile of finished tower showing the sun shade and the structural reinforcements](/resources/watch-tower/watch-tower-7-stabilizers.jpeg)
 
-## Photo Collection of the Finished Tower
+### Photo Collection of the Finished Tower
 
 ![View down the vertical ladder](/resources/watch-tower/watch-tower-8-view-down-ladder.jpg)
+
 ![View of the chicken coup](/resources/watch-tower/watch-tower-8-view-of-chickens.jpg)
-![View through the floor boards](/resources/watch-tower-watch-tower-8-view-thru-floor.jpg)
+
+![View through the floor boards](/resources/watch-tower/watch-tower-8-view-thru-floor.jpg)
+
 ![The finished tower](/resources/watch-tower/watch-tower-9-finished-tower.jpg)
 
-## Lessons Learned
+### Lessons Learned
 
 The whole tower took only four working days to build, but those days were spread out over a week and a half due to weather and scheduling constraints. I'm writing this article a little over a week since finishing the tower, and I have some thoughts.
 
-### Longevity
+#### Longevity
 
 I doubt this structure will last as long as my cousin expects, but this was a design-build contract. I am not on the hook for maintenance or inspections. I left my cousin with plenty of warnings and instructions on how to dismantle it once it's deemed appropriate. I think the best way will be to simply topple the whole structure and cut it up on the ground. Much safer than trying to reverse the construction process.
 
-### Lashing Technique
+#### Lashing Technique
 
 I initially used the standard square and diagonal lashings I was taught in scouting, but ended up making some modifications to account for the slick surface of the bamboo. Square and shear lashings seemed to work best depending on the relative angle of the bamboo poles, and I stopped using diagonal lashings entirely. By the end of the project, I found that starting the lashing with a bowline loop around one bamboo and finishing with several wraps around one pole followed by a clove hitch worked best to maintain tension. Fun fact: this is similar to how large cargo ships secure their mooring lines to a pier which is what inspired this method.
 
@@ -131,7 +137,7 @@ Those Japanese square lashings I tried out on the ladder? I thought they'd be mo
 
 Now that the tower is finished, I have noticed some lashings that used to be as tight as could be have loosened up. While some of the lashings are coming loose, I also think the rope has stretched while under tension. While my family has lost interest in the project and is happy to call it done, I would like to inspect and retie lashings as opportunity permits. Thankfully there are no small children on the farm, and I trust my cousin to recognize when the tower is no longer stable.
 
-### Leveling the Tripod
+#### Leveling the Tripod
 
 If I were to do this project over again, I would lash the tripod legs together differently and take steps to ensure the tripod had vertical rotational symmetry. I was unaware how heavy the bamboo would be and did not take the time to reevaluate the planned assembly steps accordingly. My original design also assumed leveling the tripod could be accomplished by moving the legs in or out without compromising stability. Here is how I would fix both problems.
 
@@ -139,7 +145,7 @@ To account for the weight of the bamboo, I would change how the legs were lashed
 
 Ensuring rotational symmetry requires additional preparation before raising the tripod. While the legs are still on the ground, a fixed distance from the tripod lashing would be marked on each leg. The mark on each leg would be roughly 1 meter (~3 ft) from the shortest foot. Once the tripod was raised, the legs would be moved in and out until the marked locations on each leg make an equilateral triangle. A measured piece of rope tied between all three points would aid in maintaining the equilateral triangle. The feet of each leg would then be gradually cut down until the equilateral triangle is level. Trimming load bearing feet may sound difficult or awkward, but experience shows it is doable. The alternative would be to survey the hillside and calculate ahead of time the precise lengths of the bamboo legs which would likely require adjustments and trimming anyway.
 
-## Acknowledgements
+### Acknowledgements
 
 A big thank you to my cousin and FIL who provided tools, bamboo, land, labor, and helped in the problem solving. Our respective wives, while not directly involved, made lunches, brought water, and reminded us when it was time to slow down to rest or take safety precautions. This was a group effort and I am grateful to everyone that helped make this vision come to life.
 
