@@ -1,13 +1,11 @@
 /* Define the color pallet for the style sheet */
 :root {
   /* default color palette */
-  --links-color: #faa916;
-  --header-background: #263d36;
-  --header-text: white;
-  --strong-color: #f2c14a;
-  --body-text: white;
-  --background-color: #2a4365;
-  --background2: white;
+  --primary-color: #2a4365; /* 60%, backgrounds, bulk color */
+  --secondary-color: #263d36; /* 30%, structure and contrast */
+  --accent-color: #faa916; /* 10%, links, buttons, interactives */
+  --text1: #f3eff5; /* primary text color */
+  --text2: #f7f2ef; /* secondary text color */
 }
 
 body {
@@ -17,15 +15,15 @@ body {
     max-width: 40em;
     line-height: 1.5;
     padding: 1em 1em;
-    color: var(--body-text);
-    background-color: var(--header-background);
+    color: var(--text1);
+    background-color: var(--primary-color);
     /* background-image: url("/resources/pattern-tile.png");
     background-repeat: repeat;
     background-size: auto; */
 }
 
 .post-content {
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
   padding: 1em 1em;
 }
 
@@ -37,11 +35,11 @@ h2,
 h3,
 h4,
 strong {
-    color: var(--strong-color);
+    color: var(--text2);
 }
 
 a {
-    color: var(--links-color);
+    color: var(--accent-color);
 }
 
 .myposts ul { /* Used for listing posts and projects */
@@ -50,15 +48,16 @@ a {
 
 /* Set the default image size for all content */
 .post-content img {
-    max-width: 50%;  /* Limit the image width to the container’s width */
-    height: auto;     /* Adjust height automatically to maintain aspect ratio */
+    max-width: 75%;  /* Limit the image width to the container’s width */
+    height: auto; /* Adjust height automatically to maintain aspect ratio */
+    max-height: 500px;
     display: block;    /* Remove any inline spacing issues */
     margin: 0 auto;
 }
 
 /* Start of the primary website header */
 header {
-    background-color: var(--header-background);
+    background-color: var(--secondary-color);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +67,7 @@ header {
 }
 
 header h1 {
-    color: var(--header-text);
+    color: var(--text1);
     font-size: 2.5em;
     font-weight: 300;
     margin-top: 0.5em;
@@ -99,7 +98,7 @@ nav ul {
   margin: 0 auto;
   margin-top: 0;
   padding-top: 0;
-  background-color: var(--header-background);
+  background-color: var(--secondary-color);
 }
 
 nav li {
@@ -119,12 +118,12 @@ nav li a {
 .form-section {
   margin-bottom: 5px;
   padding: 15px;
-  background-color: var(--background2);
+  background-color: var(--secondary-color);
   border-radius: 5px;
 }
 .form-section h3 {
   margin-top: 0;
-  color: var(--header-text);
+  color: var(--text2);
 }
 label {
   display: block;
@@ -134,7 +133,7 @@ label {
 }
 input[type="number"], input[type="range"] {
   padding: 8px;
-  border: 1px solid var(--body-text);
+  border: 1px solid var(--text1);
   border-radius: 4px;
   font-size: 14px;
 }
@@ -144,7 +143,7 @@ input[type="number"] {
 input[type="range"] {
   -webkit-appearance: none;
   width: 100%;
-  background: var(--links-color);
+  background: var(--accent-color);
 }
 .slider-display {
   display: flex;
@@ -164,13 +163,13 @@ input[type="range"] {
 footer {
     text-align: left;
     padding: 1em;
-    border-top: 2px solid var(--body-text);
+    border-top: 2px solid var(--text1);
     /* padding-top: 20px; /* Space between line and content inside footer */
     /* or */
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
 }
 
 footer a {
-  color: var(--body-text);
+  color: var(--text1);
 }
 /* End of footer formats */
