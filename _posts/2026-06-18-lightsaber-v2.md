@@ -14,7 +14,7 @@ After I finished lightsaber V1, I was left a little dissatisfied. The finish was
 
 Here is a photo of all the parts I used. I ended up going back to the store to get a third fitting (the ones with two screws in them) as two felt too short. Notice that the hilt is very similar to V1. I had found a sink's drain pipe that could have worked well as the base to a saber, but I wanted to avoid experimenting too much and feeling the need to make a third saber while here in Brazil.
 
-![Loose parts before assembly](LSv2-1-loose-parts.jpg)
+![Loose parts before assembly](/resources/LSv2-1-loose-parts.jpg)
 
 ![The initial too-short hilt concept](/resources/LSv2-3-rough-assembly.jpg)
 
