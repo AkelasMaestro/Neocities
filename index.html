@@ -33,21 +33,17 @@ For previous daily thoughts
 {% assign featured_post = site.posts | where: "title", "2026 June Update" | first %}
 <p>
 <a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
-<span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}</span>
-{{ featured_post.excerpt }}
+<span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}. </span> <br>
+{{ featured_post.excerpt | strip_html }}
 </p>
 
 <h3>Latest Posts:</h3>
 
 {% for post in site.posts limit:5 %}
-  {% unless post.path == "_posts/2026-04-08-daily-blog.md" or post.path == "_posts/2026-01-30-building-my-website.md" %}
+  {% unless post.path == "_posts/2026-04-08-daily-blog.md" %}
     <p><a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
-    {{ post.excerpt }}
+    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}. </span> <br>
+    {{ post.excerpt | strip_html }}
     </p>
   {% endunless %}
 {% endfor %}
-
-<h3>Quick References</h3>
-
-<a href="{% link _posts/2026-01-30-building-my-website.md %}">Change Log</a>

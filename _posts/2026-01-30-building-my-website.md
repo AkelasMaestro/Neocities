@@ -3,10 +3,20 @@ layout: post
 category: projects
 title: Building My Website
 author: Akelas Maestro
-date: 2026-04-18
+date: 2026-07-10
 ---
 
-A history of my process in making this website. More than a change log, but less than a tutorial.
+A change log with commentary.
+
+## Update 2026-07-10
+
+Today was mostly about visual changes and tweaks. I settled on a what I think is a better color palette, updated the line spacing so lists of articles are easier to read, and changed the size of images. If you're not seeing a blue background, hard refresh the website or delete your browser data. I thought there was some issue with Neocities when testing the site, but learned that once you've visited the site, your browser saves a bunch of stuff so it doesn't have to reload it constantly.
+
+A quick google search shows that websites should stick to around 3-5 colors. I settled on updating my css file to define a primary color (blue background), a secondary color (green background of the header), an accent color (yellow links) and two colors for text (one for normal content and another for headings and bold text). Supposedly, the primary color should be 60%, the secondary color should be 30% and the accent should be 10% of a website. I might add my secondary color as a background behind my headings, but I'm leaving it as is for now. A friend of mine suggest the green might need more contrast, but I'll mess with it more later. I'm just glad it's not the stark white anymore.
+
+Previously, any list of posts such as the Latest Posts on the home page or the lists shown in the Blog or Projects pages were had equal spacing between a post's title, the description, and the next post's title. I have removed the extra space between the title and description to improve readability.
+
+Images now can take up to 75% of the available width. The height of the image is set automatically so the aspect ratio doesn't change from whatever I have cropped it to, but it maxes out at 500 pixels tall. If the max height is reached, the image will be made skinnier to preserve the aspect ratio. This suits my purposes well. I don't want to have any single image extend above or below the available screen space. On my laptop's screen, 500px shows the whole image, plus one line of text above and below the image. On my phone, it feels fine. The slight size increase makes it comfortable without making the website difficult to navigate. I hate websites that get me lost to a too-large image.
 
 ## Update 2026-04-18
 

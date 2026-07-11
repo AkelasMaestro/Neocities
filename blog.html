@@ -9,18 +9,16 @@ permalink: /blog/
 
 <!-- Introduce the purpose of this page -->
 <p>
-This is where I keep a list all my articles.
-They're listed in reverse chronological order. 
-Only the newest one is shown on the home page, so this will
-help you find other udpates that didn't get displayed.
+Opinion pieces, reviews, and other miscellaneous writings
+all listed with the latest half-formed thought on top.
 </p>
 
 <!-- make a list of all the posts in the blog category -->
 {% for post in site.categories.blog %}
     <!-- Put the title and then the date on one line -->
     <p><a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}.</span> <br>
     <!-- Add the first paragraph as a description or hook --> 
-    {{ post.excerpt }} 
+    {{ post.excerpt | strip_html }} 
     </p>
 {% endfor %}

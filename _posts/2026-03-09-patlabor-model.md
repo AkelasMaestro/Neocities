@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: blog
+categories: projects
 title: Patlabor Model
-date: 2026-06-11
+date: 2026-03-09
 ---
 My first foray into model making, photography, and silly poses.
 
