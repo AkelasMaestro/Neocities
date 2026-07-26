@@ -18,7 +18,7 @@ also some other blogs thrown in there.
 - [CreepingNet](https://creepingnet.neocities.org/)
 - [Pixelina](https://pixalina.neocities.org/)
 - [Practical Betterments](https://practicalbetterments.com/)
-- [endtimes](https://endtimes.dev/)
+- [Endtimes](https://endtimes.dev/)
 
 ### YouTube Channels
 
@@ -34,7 +34,6 @@ also some other blogs thrown in there.
 
 ### Tools
 
-- [image compressor](https://image-compressor.github.io/)
-- [dithering, patterns, and gradients](https://doodad.dev/)
-  [Minecraft tools](https://www.minecraftmaps.com/tools)
-
+- [Image compressor](https://image-compressor.github.io/)
+- [Dithering, patterns, and gradients](https://doodad.dev/)
+- [Minecraft tools](https://www.minecraftmaps.com/tools)
