@@ -8,6 +8,18 @@ date: 2026-07-10
 
 A change log with commentary.
 
+## Update 2026-07-30
+
+I'm trying to figure out how to simplify my process for updating this website. For a minute, I was really tempted to switch to using Obsidian Publish, but it's more expensive and locks me into a specific website layout. My current workflow is laptop-centric as I use Jekyll to build the HTML from markdown and then the Neocities CLI to push the built site to Neocities. There are plugins, such as Enveloppe, for Obsidian that push my notes to github.
+
+As I write this, it has come to my attention that GitHub pages has Jekyll built in. If my website was hosted on GitHub pages, would it look any different? I am going to check...
+
+Okay, so GitHub pages seems to be pretty simple. And it supports my custom domains for free. Unfortunately, my current repo is not "publish ready". For whatever reason, my css file isn't taking effect and the links on the home page are broken. I didn't use a jekyll theme from the beginning, so my admittedly, my jekyll config files are a mess. I think it has something to do with my baseurl as listed in the config.yaml file. This will take time to figure out.
+
+But! if I can get github pages working properly, and complete the link between Obsidian and Github via the Enveloppe plugin, that might solve my issue. And I will be able to avoid the additional costs incurred using Obsidian Publish. I might even be able to cut the cost to Neocities that lets me use a custom domain.
+
+For now, I'll keep the functioning website here on Neocities. Once everything is working, only then will I transition my custom domain.
+
 ## Update 2026-07-10
 
 Today was mostly about visual changes and tweaks. I settled on a what I think is a better color palette, updated the line spacing so lists of articles are easier to read, and changed the size of images. If you're not seeing a blue background, hard refresh the website or delete your browser data. I thought there was some issue with Neocities when testing the site, but learned that once you've visited the site, your browser saves a bunch of stuff so it doesn't have to reload it constantly.
