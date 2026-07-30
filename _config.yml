@@ -1,4 +1,5 @@
 name: AkelasMaestro
+baseurl: /Neocities
 title: Akelas Corner
 kramdown:
   toc_levels: [3, 4, 5]
